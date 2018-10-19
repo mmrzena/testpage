@@ -1,0 +1,83 @@
+.content-base {
+	height: 658px;
+	width: 548px;
+	border-radius: 2px;
+	background-color: #FFFFFF;
+    box-shadow: 0 11px 49px 0 rgba(222,222,222,0.7);
+    padding: 20px 30px;    
+    box-sizing: border-box;
+    position: relative;
+}
+
+.title {
+	height: 83px;
+    width: 468px;
+    color: #2B2C37;
+	font-size: 36px;
+	font-weight: 800;
+    letter-spacing: 0.7px;
+    text-indent: 10px;
+	line-height: 83px;
+}
+
+.demotag {
+    position: absolute;
+    right: 0;
+    top: 0;
+	height: 28px;
+	width: 153px;
+	border-radius: 0 2px 0 0;
+    background-color: #877FD9;
+    color: #FFFFFF;
+    font-size: 12px;
+    font-weight: 500;
+    letter-spacing: 0.6px;
+    line-height: 28px;
+    text-align: right;
+    box-sizing: border-box;
+    padding-right: 10px;
+}
+
+.downloadTagPurple {
+    position: absolute;
+    left: 7px;
+    top: 2px;
+}
+
+.btn {
+	height: 48px;
+    width: 161px;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    opacity: 0.33;
+    color: #2B2C37;
+    background-color: #fff;
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+    line-height: 48px;
+    text-align: center;
+    border: none;
+    border-bottom: 1.5px solid #D9DADD;
+}
+
+.downloadBtn {
+    opacity: 1;
+    color: #2B2C37;
+}
+
+.downloadBtn::after {
+    content: '';
+    display: block;
+    border-bottom: 3px solid #2B2C37;
+}
+
+.note {
+    opacity: 0.33;
+    color: #2B2C37;
+    font-size: 14px;
+    font-weight: 500;
+    margin-top: 10px;
+    margin-left: 10px;
+}

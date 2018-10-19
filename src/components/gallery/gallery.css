@@ -1,0 +1,61 @@
+
+.bigImgContainer {
+    width: 967px;
+    height: 553px;
+    position: relative;
+}
+
+.imgsContainer {
+    width: 967px;
+    height: auto; 
+}
+
+.thumbnailContainer {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    align-items: center;
+    justify-items: center;
+    grid-gap: 12px;
+}
+
+.thumbnail {
+    cursor: pointer;
+}
+
+.playCircle {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    height: 103.36px;
+    width: 104.13px;
+    border: 4px solid #FFFFFF;
+    border-radius: 50%;
+}
+
+.play1, .play2, .play3 {
+    width: 4px;
+    height: 33px;
+    background-color: #FFFFFF;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    border-radius: 25%;
+}
+
+.play1 {
+    top: 53%;
+    left: 40%;
+}
+
+.play2 {
+    top: 43%;
+    left: 52%;
+    transform: rotate(58deg);
+}
+
+.play3 {
+    top: 26%;
+    left: 52%;
+    transform: rotate(-58deg);
+}

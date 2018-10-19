@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="25px" height="24px" viewBox="0 0 25 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
+    <title>6E8A0476-9F4F-48B4-9252-CF8942BDAF3E</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="1920" height="60"></rect>
+        <filter x="-2.8%" y="-84.2%" width="105.7%" height="281.7%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="4" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="17.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.0470588235   0 0 0 0 0.0470588235   0 0 0 0 0.0470588235  0 0 0 0.25 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <path d="M11.9068191,10.9168696 L15.1949747,14.2050253 C15.4683418,14.4783923 15.4683418,14.9216077 15.1949747,15.1949747 C14.9216077,15.4683418 14.4783923,15.4683418 14.2050253,15.1949747 L10.9168696,11.9068191 C9.76536352,12.840548 8.29801527,13.4 6.7,13.4 C2.99969218,13.4 0,10.4003078 0,6.7 C0,2.99969218 2.99969218,0 6.7,0 C10.4003078,0 13.4,2.99969218 13.4,6.7 C13.4,8.29801527 12.840548,9.76536352 11.9068191,10.9168696 Z M10.4714546,10.4237262 C11.4165767,9.46656623 12,8.15141601 12,6.7 C12,3.77289083 9.62710917,1.4 6.7,1.4 C3.77289083,1.4 1.4,3.77289083 1.4,6.7 C1.4,9.62710917 3.77289083,12 6.7,12 C8.15141601,12 9.46656623,11.4165767 10.4237262,10.4714546 C10.4312584,10.4631717 10.4390248,10.4550257 10.4470253,10.4470253 C10.4550257,10.4390248 10.4631717,10.4312584 10.4714546,10.4237262 Z" id="path-3"></path>
+    </defs>
+    <g id="❇️-01-Viewer" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="00.3-Viewer-download" transform="translate(-206.000000, -18.000000)">
+            <rect fill="#ECEFF4" x="0" y="0" width="1920" height="3776"></rect>
+            <g id="1-navbar">
+                <g id="menu">
+                    <g id="base">
+                        <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                        <use fill="#2B2C37" fill-rule="evenodd" xlink:href="#path-1"></use>
+                    </g>
+                    <g transform="translate(206.349610, 12.000000)" id="General/Search">
+                        <g transform="translate(0.000000, 6.000000)">
+                            <rect id="Background" x="0" y="0" width="24" height="24"></rect>
+                            <g id="Color" transform="translate(4.000000, 4.000000)">
+                                <mask id="mask-4" fill="white">
+                                    <use xlink:href="#path-3"></use>
+                                </mask>
+                                <g id="Mask" fill-rule="nonzero"></g>
+                                <g mask="url(#mask-4)">
+                                    <g transform="translate(-46.000000, -43.000000)">
+                                        <rect id="Background" fill="none" x="0" y="0" width="100" height="100"></rect>
+                                        <rect id="White/66" fill-opacity="0.66" fill="#FFFFFF" fill-rule="evenodd" x="0" y="0" width="100" height="100" rx="2"></rect>
+                                    </g>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

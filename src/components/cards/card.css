@@ -1,0 +1,178 @@
+
+
+.card {
+	height: 628px;
+	width: 360px;
+	border-radius: 16px;
+	background-color: #FFFFFF;
+    box-shadow: 0 11px 49px 0 rgba(32,43,54,0.1);
+    position: relative;
+    margin-bottom: 40px;
+}
+
+.image {
+	height: 193px;
+	width: 360px;
+	border-radius: 16px 16px 0 0;
+	background: linear-gradient(180deg, rgba(0,0,0,0) 0%, rgba(0,0,0,0.6) 100%);
+    box-shadow: 0 11px 49px 0 rgba(32,43,54,0.1);
+    z-index: 1;
+}
+
+.tag {
+	height: 36px;
+	width: 128px;
+	border-radius: 18px;
+    background-color: #dff9fa;
+    border: none;
+    position: absolute;
+    left: 32px;
+    top: 175px;
+    z-index: 99;
+    color: #27B8C1;
+    font-size: 12px;
+    font-weight: bold;
+    letter-spacing: 0.6px;
+    line-height: 36px;
+    text-align: left;
+    text-indent: 14px;
+}
+
+.fundablePNG {
+    width: 19px;
+    position: absolute;
+    top: 10.5px;
+    margin-left: 5px;
+}
+
+.card .nameText {
+    height: 65px;
+    width: 360px;
+    margin-top: 24px;
+    padding: 8px 32px;
+    box-sizing: border-box;
+    color: #2B2C37;
+    font-size: 20px;	
+    font-weight: 500;	
+    line-height: 25px;
+}
+
+.paragraphText {
+	height: 85px;
+    width: 360px;
+    box-sizing: border-box;
+    padding: 8px 32px;
+    opacity: 0.45;	
+    color: #2B2C37;	
+    font-size: 16px;	
+    font-weight: 300;	
+    line-height: 23px;
+    overflow: overlay;
+}
+
+.paragraphText::-webkit-scrollbar {
+    background: transparent;
+}
+
+.barDiv {
+	height: 93px;
+    width: 360px;
+    position: relative;
+}
+
+.numberSpan {
+    position: absolute;
+    top: 29px;
+    left: 31px;
+    height: 19px;
+    width: 44px;
+    color: #2B2C37;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 19px;
+}
+
+.nameSpan {
+    position: absolute;
+    top: 29px;
+    left: 78.5px;
+	height: 19px;
+	opacity: 0.33;
+	color: #2B2C37;
+	font-size: 14px;
+	font-weight: 500;
+	line-height: 19px;
+}
+
+.percentageSpan {
+    position: absolute;
+    top: 29px;
+    right: 32px;
+	height: 19px;
+	width: 28px;
+	opacity: 0.45;
+	color: #2B2C37;
+	font-size: 14px;
+	font-weight: 500;
+	line-height: 19px;
+	text-align: right;
+}
+
+.barGrey {
+    position: absolute;
+    left: 32px;
+    top: 57px;
+	height: 8px;
+	width: 296px;
+	border-radius: 6px;
+	background-color: rgba(43,44,55,0.1);
+}
+
+.barBlue {
+    position: absolute;
+    left: 32px;
+    top: 57px;
+	height: 8px;
+	width: 195.11px;
+	border-radius: 6px;
+	background-color: #2ED9E3;
+}
+
+.badgeDiv {
+	height: 96px;
+    width: 360px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.badge {
+    height: 40px;	
+    width: 40px;	
+    border: 2px solid rgba(43,44,55,0.1);	
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 13px;
+    cursor: pointer;
+}
+
+.badgeImage {
+    width: 18px;
+}
+
+.pledge {
+	height: 40px;
+	width: 185px;
+	border: 2px solid #2ED9E3;
+	border-radius: 20px;
+    background-color: #2ED9E3;
+    color: #FFFFFF;
+    font-size: 12px;
+    font-weight: 500;
+    letter-spacing: 0.6px;
+    line-height: 12px;
+    text-align: center;
+    cursor: pointer;
+}
